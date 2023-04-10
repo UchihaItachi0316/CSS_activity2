@@ -75,7 +75,7 @@ body{
     text-align: center; 
 
 }
-  #blog div a {
+#blog div a {
 
     color: lightgrey;
      margin-right: 250px;
@@ -90,3 +90,40 @@ body{
 #blog div a:hover{
     color: blue;
 }
+#services{
+    background-color: whitesmoke;
+    padding-top: 100px; ;
+    padding-bottom: 90px;
+    text-align: center;
+
+}
+#services h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-left: 25px;
+}
+#services ul{
+    list-style: none;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+li{
+    margin: 15px;
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    width: 100px;
+    background-color: white;
+    padding: 30px;
+
+}
+li:nth-child(1){
+    background-color: orangered;
+}
+li:hover{
+    box-shadow: rgba(0, 0, 0, 35) 0px 5px 15px;
+ }
